@@ -4,11 +4,11 @@
 
 .loader {
     margin: auto;
-    border: 16px solid grey;
+    border: 16px solid #D3D3D3;
     width: 120px;
     height: 120px;
-    border-top-color: blue;
-    border-bottom-color: green;
+    border-top-color: #00C4D3;
+    border-bottom-color: #FFBE91;
     border-radius: 50%;
     animation: rotatethecircle 1s infinite linear;
 }
