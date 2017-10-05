@@ -10,18 +10,33 @@
     border-top-color: #00C4D3;
     border-bottom-color: #FFBE91;
     border-radius: 50%;
+    -webkit-animation: rotatethecircle 1s infinite linear;
     animation: rotatethecircle 1s infinite linear;
 }
 h1 {
     text-align: center;   
 }
 
-@keyframes rotatethecircle {
+@-webkit-keyframes rotatethecircle {
     0% {
+        -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
     
     100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotatethecircle {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
