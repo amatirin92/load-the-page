@@ -1,0 +1,27 @@
+.container {
+    font-family: 'Dosis', sans-serif;
+}
+
+.loader {
+    margin: auto;
+    border: 16px solid grey;
+    width: 120px;
+    height: 120px;
+    border-top-color: blue;
+    border-bottom-color: green;
+    border-radius: 50%;
+    animation: rotatethecircle 1s infinite linear;
+}
+h1 {
+    text-align: center;   
+}
+
+@keyframes rotatethecircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
